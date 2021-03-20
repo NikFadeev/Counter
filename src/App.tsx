@@ -1,26 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    let initMaxValue = 5;
+    let initStartValue = 0;
+    let initCounterValue = null;
+
+    let [maxValue, setMaxValue] = useState<number>(initMaxValue);
+    let [startValue, setStartValue] = useState<number>(initStartValue);
+    let [counterValue, setCounterValue] = useState<number | null>(initCounterValue);
+
+    return (
+        <div className={'app'}>
+
+        </div>
+    );
 }
 
 export default App;
