@@ -1,0 +1,9 @@
+.settings {
+    max-width: 320px;
+    width: 100%;
+    border: 3px solid #19b3d9;
+    border-radius: 8px;
+    padding: 10px;
+    min-height: 220px;
+    margin-right: 50px;
+}

@@ -1,0 +1,8 @@
+.settingsDisplay {
+    border: 3px solid #19b3d9;
+    border-radius: 8px;
+    padding: 14px 10px 10px 10px;
+    margin-bottom: 20px;
+    min-height: 110px;
+}
+

@@ -1,0 +1,28 @@
+.settingsItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.settingsItem + .settingsItem {
+    margin-top: 14px;
+}
+
+.settingName {
+    color: #19b3d9;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input {
+    max-width: 120px;
+    text-align: center;
+    border: 3px solid #19b3d9;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inputError {
+    background-color: red;
+    border: 3px solid #7e1f1a;
+}
+
