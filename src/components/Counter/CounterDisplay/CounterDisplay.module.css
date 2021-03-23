@@ -1,0 +1,30 @@
+.counterDisplay {
+    border: 3px solid #19b3d9;
+    border-radius: 8px;
+    padding: 14px 10px 10px 10px;
+    margin-bottom: 20px;
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counterValue {
+    color: #19b3d9;
+    font-weight: bold;
+    font-size: 47px;
+}
+
+.counterLastValue {
+    color: red;
+}
+
+.valuesValid {
+    color: #19b3d9;
+    font-size: 22px;
+}
+
+.valuesError {
+    color: red;
+    font-size: 22px;
+}
