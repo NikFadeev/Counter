@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Settings from "./components/Settings/Settings";
 import Counter from "./components/Counter/Counter";
